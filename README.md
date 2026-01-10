@@ -118,8 +118,8 @@ Feel free to open issues or submit pull requests.
 Final Year Computer Engineering Student  
 Thapar Institute of Engineering & Technology  
 
-GitHub: (your-github-link)  
-LinkedIn: (your-link)
+GitHub: https://github.com/AlokSinha26 
+LinkedIn: https://www.linkedin.com/in/sinhalok7/
 
 ---
 
