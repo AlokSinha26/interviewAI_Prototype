@@ -1,73 +1,107 @@
-# Welcome to your Lovable project
+# AI Interview Practice Platform – UI/UX Case Study
 
-## Project info
+A modern UI/UX design project for an AI-powered interview practice platform that helps students prepare for job interviews through real-time AI voice-based mock interviews and performance analysis.
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+---
 
-## How can I edit this code?
+## 📌 Project Overview
 
-There are several ways of editing your application.
+Many students struggle with interview confidence and lack access to realistic practice environments.  
+This project focuses on designing an intuitive and engaging user experience where users can practice interviews with an AI voice interviewer, receive instant feedback, and track improvement over time.
 
-**Use Lovable**
+This is a **UI/UX case study project**, created as part of my final-year portfolio.
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
+---
 
-Changes made via Lovable will be committed automatically to this repo.
+## 🎯 Problem Statement
 
-**Use your preferred IDE**
+Traditional interview preparation methods lack:
+- Real-time interactive practice
+- Personalized feedback
+- Progress tracking
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+The goal was to design a platform that makes interview practice **realistic, motivating, and easy to use**.
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+---
 
-Follow these steps:
+## 💡 Solution
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+A web-based AI interview practice platform featuring:
+- AI voice interview simulation  
+- Performance analysis dashboard  
+- Progress tracking system  
+- Clean and minimal modern interface
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+---
 
-# Step 3: Install the necessary dependencies.
-npm i
+## 🛠 Tools Used
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+- Figma (UI Design & Prototyping)
+- Photoshop (Visual assets)
+- Framer / Web UI Inspiration
+- Icon libraries & Google Fonts
 
-**Edit a file directly in GitHub**
+---
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+## 🎨 Design Process
 
-**Use GitHub Codespaces**
+1. User research and problem analysis  
+2. User persona creation  
+3. Wireframing  
+4. High-fidelity UI design  
+5. Interactive prototyping  
+6. Usability considerations  
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+---
 
-## What technologies are used for this project?
+## ✨ Key Features
 
-This project is built with:
+- Modern landing page with clear call-to-action  
+- User dashboard with interview history  
+- Real-time AI voice interview room UI  
+- Performance analysis with confidence & clarity scores  
+- Weekly progress tracking  
+- Dark mode with AI-themed accent colors  
+- Fully responsive design
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+---
 
-## How can I deploy this project?
+## 📷 Screenshots
 
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
+(Add your UI design images here)
 
-## Can I connect a custom domain to my Lovable project?
+Example:
+![Landing Page](assets/landing.png)
+![Interview Room](assets/interview.png)
+![Analysis Dashboard](assets/analysis.png)
 
-Yes, you can!
+---
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+## 🔗 Prototype Link
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+Figma Prototype:  
+(Add your prototype link here)
+
+---
+
+## 🚀 Future Improvements
+
+- Real AI voice integration  
+- Personalized interview question sets  
+- Resume-based interview generation  
+- Multilingual support  
+
+---
+
+## 👨‍💻 Author
+
+**Alok Sinha**  
+Final Year Computer Engineering Student  
+Thapar Institute of Engineering & Technology  
+
+GitHub: (your-github-link)  
+LinkedIn: (your-link)
+
+---
+
+## ⭐ If you like this project, give it a star!
