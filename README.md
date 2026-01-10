@@ -1,56 +1,63 @@
 # AI Interview Practice Platform – UI/UX Case Study
 
-A modern UI/UX design project for an AI-powered interview practice platform that helps students prepare for job interviews through real-time AI voice-based mock interviews and performance analysis.
+A modern UI/UX and frontend prototype for an AI-powered interview practice platform that helps students prepare for job interviews through simulated mock interviews and performance analysis.
+
+> ⚠️ **Note:** The AI interview functionality is currently under development.  
+> This repository focuses on **UI/UX design and frontend implementation** of the platform.  
+> Contributions to improve or integrate AI features are warmly welcome.
 
 ---
 
 ## 📌 Project Overview
 
 Many students struggle with interview confidence and lack access to realistic practice environments.  
-This project focuses on designing an intuitive and engaging user experience where users can practice interviews with an AI voice interviewer, receive instant feedback, and track improvement over time.
+This project aims to design an intuitive and engaging platform where users can practice mock interviews, receive feedback, and track their improvement over time.
 
-This is a **UI/UX case study project**, created as part of my final-year portfolio.
+This is a **final-year UI/UX + frontend case study project**.
 
 ---
 
 ## 🎯 Problem Statement
 
 Traditional interview preparation methods lack:
-- Real-time interactive practice
-- Personalized feedback
-- Progress tracking
+- Real-time interactive practice  
+- Personalized feedback  
+- Progress tracking  
 
-The goal was to design a platform that makes interview practice **realistic, motivating, and easy to use**.
+The goal was to design a platform that makes interview preparation:
+**realistic, motivating, and easy to use**.
 
 ---
 
-## 💡 Solution
+## 💡 Proposed Solution
 
-A web-based AI interview practice platform featuring:
-- AI voice interview simulation  
+A web-based interview practice platform featuring:
+- Interactive interview room UI  
 - Performance analysis dashboard  
 - Progress tracking system  
-- Clean and minimal modern interface
+- Clean and modern user interface  
+
+AI voice interview integration is planned for future development.
 
 ---
 
-## 🛠 Tools Used
+## 🧰 Tech Stack
 
-- Figma (UI Design & Prototyping)
-- Photoshop (Visual assets)
-- Framer / Web UI Inspiration
-- Icon libraries & Google Fonts
+- TypeScript  
+- React / Next.js  
+- Tailwind CSS  
+- Framer Motion  
+- Figma (UI/UX Design & Prototyping)
 
 ---
 
 ## 🎨 Design Process
 
 1. User research and problem analysis  
-2. User persona creation  
-3. Wireframing  
-4. High-fidelity UI design  
-5. Interactive prototyping  
-6. Usability considerations  
+2. Wireframing  
+3. High-fidelity UI design  
+4. Interactive prototyping  
+5. Frontend implementation  
 
 ---
 
@@ -58,38 +65,50 @@ A web-based AI interview practice platform featuring:
 
 - Modern landing page with clear call-to-action  
 - User dashboard with interview history  
-- Real-time AI voice interview room UI  
-- Performance analysis with confidence & clarity scores  
-- Weekly progress tracking  
-- Dark mode with AI-themed accent colors  
-- Fully responsive design
+- Interview room interface  
+- Performance analysis screen  
+- Progress tracking section  
+- Dark mode UI  
+- Fully responsive design  
 
 ---
 
-## 📷 Screenshots
+## 📸 UI Preview
 
-(Add your UI design images here)
+(Add your screenshots or GIFs here)
 
 Example:
-![Landing Page](assets/landing.png)
-![Interview Room](assets/interview.png)
+![Landing Page](assets/landing.png)  
+![Interview Room](assets/interview.png)  
 ![Analysis Dashboard](assets/analysis.png)
 
 ---
 
-## 🔗 Prototype Link
+## 🔗 Live Preview / Prototype
 
-Figma Prototype:  
-(Add your prototype link here)
+(Add your deployment or Figma prototype link here)
 
 ---
 
 ## 🚀 Future Improvements
 
-- Real AI voice integration  
-- Personalized interview question sets  
-- Resume-based interview generation  
-- Multilingual support  
+- Integrate real AI voice interviewer  
+- Resume-based question generation  
+- Personalized feedback system  
+- Multilingual interview support  
+
+---
+
+## 🤝 Contributions
+
+AI functionality is not yet implemented.  
+**Contributors are welcome** to help with:
+- AI voice integration  
+- Backend development  
+- API integration  
+- UI/UX enhancements  
+
+Feel free to open issues or submit pull requests.
 
 ---
 
@@ -104,4 +123,4 @@ LinkedIn: (your-link)
 
 ---
 
-## ⭐ If you like this project, give it a star!
+⭐ If you find this project interesting, consider giving it a star!
