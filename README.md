@@ -124,3 +124,4 @@ LinkedIn: https://www.linkedin.com/in/sinhalok7/
 ---
 
 ⭐ If you find this project interesting, consider giving it a star!
+https://tinyurl.com/interviewAiprototype
