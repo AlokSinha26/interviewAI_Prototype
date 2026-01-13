@@ -7,7 +7,8 @@ import { Label } from "@/components/ui/label";
 import { Checkbox } from "@/components/ui/checkbox";
 import { Eye, EyeOff, Mail, Sparkles } from "lucide-react";
 import { cn } from "@/lib/utils";
-import { useNavigate } from "react-router-dom";
+import { useNavigate, useLocation } from "react-router-dom";
+import { useAuth } from "@/contexts/AuthContext";
 
 interface PupilProps {
   size?: number;
@@ -171,11 +172,21 @@ const EyeBall = ({
 
 function LoginPage() {
   const navigate = useNavigate();
+  const location = useLocation();
+  const { signIn, user } = useAuth();
   const [showPassword, setShowPassword] = useState(false);
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [error, setError] = useState("");
   const [isLoading, setIsLoading] = useState(false);
+
+  // Redirect if already logged in
+  useEffect(() => {
+    if (user) {
+      const from = location.state?.from?.pathname || "/dashboard";
+      navigate(from, { replace: true });
+    }
+  }, [user, navigate, location]);
   const [mouseX, setMouseX] = useState(0);
   const [mouseY, setMouseY] = useState(0);
   const [isPurpleBlinking, setIsPurpleBlinking] = useState(false);
@@ -294,13 +305,13 @@ function LoginPage() {
     setError("");
     setIsLoading(true);
 
-    await new Promise(resolve => setTimeout(resolve, 300));
-
-    if (email && password) {
-      console.log("✅ Login successful!");
-      navigate("/dashboard");
+    const { error: signInError } = await signIn(email, password);
+    
+    if (signInError) {
+      setError(signInError.message);
     } else {
-      setError("Please enter both email and password.");
+      const from = location.state?.from?.pathname || "/dashboard";
+      navigate(from, { replace: true });
     }
 
     setIsLoading(false);

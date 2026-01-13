@@ -1,8 +1,9 @@
 import { motion } from "framer-motion";
 import { Button } from "@/components/ui/button";
 import { Progress } from "@/components/ui/progress";
-import { Play, Clock, Trophy, TrendingUp, Calendar, ChevronRight, Mic2 } from "lucide-react";
-import { Link } from "react-router-dom";
+import { Play, Clock, Trophy, TrendingUp, Calendar, ChevronRight, Mic2, LogOut } from "lucide-react";
+import { Link, useNavigate } from "react-router-dom";
+import { useAuth } from "@/contexts/AuthContext";
 
 const pastInterviews = [
   {
@@ -39,6 +40,17 @@ const badges = [
 ];
 
 const Dashboard = () => {
+  const { profile, user, signOut } = useAuth();
+  const navigate = useNavigate();
+
+  const displayName = profile?.display_name || user?.email?.split("@")[0] || "User";
+  const initials = displayName.slice(0, 2).toUpperCase();
+
+  const handleSignOut = async () => {
+    await signOut();
+    navigate("/");
+  };
+
   return (
     <div className="min-h-screen bg-background">
       {/* Header */}
@@ -51,8 +63,12 @@ const Dashboard = () => {
             <span className="font-display font-bold text-xl">InterviewAI</span>
           </Link>
           <div className="flex items-center gap-4">
+            <Button variant="ghost" size="sm" onClick={handleSignOut}>
+              <LogOut className="w-4 h-4 mr-2" />
+              Sign Out
+            </Button>
             <div className="w-10 h-10 rounded-full bg-secondary flex items-center justify-center">
-              <span className="text-sm font-medium">JD</span>
+              <span className="text-sm font-medium">{initials}</span>
             </div>
           </div>
         </div>
@@ -67,7 +83,7 @@ const Dashboard = () => {
           className="mb-8"
         >
           <h1 className="font-display text-3xl md:text-4xl font-bold mb-2">
-            Welcome back, <span className="gradient-text">John</span>
+            Welcome back, <span className="gradient-text">{displayName}</span>
           </h1>
           <p className="text-muted-foreground">Ready to practice? Let's improve your interview skills today.</p>
         </motion.div>
