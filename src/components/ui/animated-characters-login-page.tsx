@@ -175,8 +175,8 @@ function LoginPage() {
   const location = useLocation();
   const { signIn, signInWithGoogle, user } = useAuth();
   const [showPassword, setShowPassword] = useState(false);
-  const [email, setEmail] = useState("");
-  const [password, setPassword] = useState("");
+  const [email, setEmail] = useState("developer@test.com");
+  const [password, setPassword] = useState("6969");
   const [isGoogleLoading, setIsGoogleLoading] = useState(false);
   const [error, setError] = useState("");
   const [isLoading, setIsLoading] = useState(false);
