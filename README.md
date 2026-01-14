@@ -75,12 +75,6 @@ AI voice interview integration is planned for future development.
 
 ## 📸 UI Preview
 
-(Add your screenshots or GIFs here)
-
-Example:
-![Landing Page](assets/landing.png)  
-![Interview Room](assets/interview.png)  
-![Analysis Dashboard](assets/analysis.png)
 
 ---
 
@@ -124,4 +118,4 @@ LinkedIn: https://www.linkedin.com/in/sinhalok7/
 ---
 
 ⭐ If you find this project interesting, consider giving it a star!
-https://tinyurl.com/interviewAiprototype
+https://tinyurl.com/interviewAIprototype1
